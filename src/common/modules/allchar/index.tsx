@@ -3,7 +3,7 @@ import HeadAllChar from './component/HeadAllChar'
 
 const AllChar = () => {
   return (
-    <div>
+    <div className=''>
       <HeadAllChar/>
     </div>
   )

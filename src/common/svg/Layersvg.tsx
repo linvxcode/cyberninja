@@ -8,7 +8,7 @@ const Layersvg = ({className}: any) => {
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
         width="1840"
-        height="1080"
+        height="900"
         viewBox="0 0 1840 1080"
         className={clsx(className)}
         fill="none"
@@ -18,7 +18,7 @@ const Layersvg = ({className}: any) => {
             x="30"
             y="-238"
             width="1780"
-            height="1729"
+            height="100%"
             fill="url(#pattern0)"
           />
         </g>

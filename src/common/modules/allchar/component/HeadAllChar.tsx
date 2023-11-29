@@ -19,7 +19,7 @@ const HeadAllChar = () => {
       <div className="mt-[100px] justify-center  flex flex-row flex-wrap gap-5">
         {data?.map((item: any, index: any) => (
           <Link
-            href={`/allcharacter/${item.nickname}`}
+            href={`/allcharacter/${item?.nickname}`}
             key={index}
             className="bg-card group relative"
             style={{ backdropFilter: "blur(0px)" }}
@@ -27,8 +27,8 @@ const HeadAllChar = () => {
             <div>
               <Image
                 priority
-                src={`${item.thumbnail.default}`}
-                alt={item.nickname}
+                src={item?.thumbnail?.default === 'todo' ? 'https://raddythebrand.github.io/apex-legends/img/legends/apex_default_0001_Wattson.png' : item?.thumbnail?.default}
+                alt={item?.nickname}
                 className=""
                 width={400}
                 height={400}

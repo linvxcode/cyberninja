@@ -5,7 +5,7 @@ import Layersvg from "@/common/svg/Layersvg";
 const HeadSecond = () => {
   return (
     <div className="relative">
-      <div className="w-full  justify-center z-[9] md:px-16 px-10 gap-8 flex flex-wrap flex-row absolute pb-5 max-lg:top-[240px] lg:top-[-110px]  bg-fade h-auto ">
+      <div className="w-full  justify-center z-[9] md:px-16 px-10 gap-8 flex flex-wrap flex-row absolute pb-5 max-lg:top-[140px] lg:top-[-110px]  bg-fade h-auto ">
         {CardItem?.map((item, index) => (
           <div
             className="mt-5 py-10 bg-card h-auto px-10 flex items-center w-[280px] xl:mb-32"

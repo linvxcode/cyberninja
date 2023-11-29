@@ -7,7 +7,7 @@ import BgLayer from "./component/BgLayer";
 
 const Homepage = () => {
   return (
-    <div className="h-screen flex justify-center bg relative ">
+    <div className="h-auto flex justify-center bg relative ">
       <div className="max-w-[1500px] place-content-start  lg:overflow-hidden  w-full grid lg:grid-cols-2 grid-cols-1 relative z-[9]">
         <HeadHome />
         <MainImg />

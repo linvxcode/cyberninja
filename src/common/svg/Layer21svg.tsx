@@ -7,11 +7,11 @@ const Layer21svg = () => {
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
         width="1193"
-        height="1080"
+        height="100%"
         viewBox="0 0 1193 1080"
         fill="none"
       >
-        <rect y="-56" width="1226" height="1191" fill="url(#pattern0)" />
+        <rect y="-56" width="1226" height="500" fill="url(#pattern0)" />
         <defs>
           <pattern
             id="pattern0"
