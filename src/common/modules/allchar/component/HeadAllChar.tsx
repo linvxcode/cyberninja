@@ -6,6 +6,7 @@ import Link from "next/link";
 import ArrowR from "@/common/svg/ArrowR";
 import { useApexData } from "@/common/stores/ApexData";
 import Layersvg from "@/common/svg/Layersvg";
+import LayoutsAnim from "./LayoutsAnim";
 
 
 const HeadAllChar = () => {
@@ -24,6 +25,7 @@ const HeadAllChar = () => {
             className="bg-card group relative"
             style={{ backdropFilter: "blur(0px)" }}
           >
+            <LayoutsAnim index={index}>
             <div>
               <Image
                 priority
@@ -47,6 +49,7 @@ const HeadAllChar = () => {
                 </h2>
               </div>
             </div>
+            </LayoutsAnim>
           </Link>
         ))}
       </div>
