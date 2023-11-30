@@ -9,6 +9,10 @@ interface ApexState {
     setLoading: (isLoading: boolean) => void;
 }
 
+interface useLoadingProps {
+    loadingPage:boolean;
+    setLoadingPage: (isLoading: boolean) => void;
+}
 
 export const useApexData = create<ApexState>((set) => ({
     data: null,
@@ -28,5 +32,13 @@ export const useApexData = create<ApexState>((set) => ({
     },
     setLoading: (isLoading: boolean) => {
         set({ loading: isLoading });
+      },
+}))
+
+
+export const useLoadingStore = create<useLoadingProps>((set) => ({
+    loadingPage: false,
+    setLoadingPage: (isLoading: boolean) => {
+        set({ loadingPage: isLoading });
       },
 }))

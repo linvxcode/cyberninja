@@ -1,4 +1,3 @@
-import React from "react";
 import HeadHome from "./component/HeadHome";
 import MainImg from "./component/MainImg";
 import BackgroundGlow from "./component/BackgroundGlow";

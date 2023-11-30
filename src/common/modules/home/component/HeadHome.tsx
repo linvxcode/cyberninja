@@ -7,8 +7,8 @@ const HeadHome = () => {
   return (
     <div className="flex xl:pl-14 lg:pl-10 px-5 mt-[120px] flex-col justify-start">
       <motion.h1 className="lg:text-[75px] overflow-hidden font-bold text-4xl text-white leading-[1] xl:leading-relaxed"
-      initial={{translateY: 50, height: '20px'}}
-      animate={{translateY: 0, height: '100px',}}
+      initial={{translateY: 40, height: '1px'}}
+      animate={{translateY: 0,height: 'auto',}}
       >
         CYBER <span className="italic"> NINJA</span>
       </motion.h1>
